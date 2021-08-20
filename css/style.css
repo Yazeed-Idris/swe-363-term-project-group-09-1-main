@@ -1,0 +1,576 @@
+/* General styling for the website*/
+html  {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body  {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+@media (min-width: 1200px) {
+    .mealDisc{
+        background-color:red;
+    }
+}
+
+h1,
+h2,
+h4,
+h5,
+h6,
+p,
+button,
+.socials a {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: #A80E0E;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: white;
+}
+a, a:hover, a:focus {
+    text-decoration: none !important;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.col-centered {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+button{
+    border: none;
+}
+
+@media (max-width: 600px) {
+    .buttons-min-width{
+        padding-left: 0rem !important;
+        min-width: 210px;
+    }
+}
+
+.yellow-button {
+    color:white !important;
+    padding: 2px 12px !important;
+    background-color: #fda901 !important;
+    border-radius: 25px !important;
+}
+
+.yellow-button-a:hover{
+    text-decoration: none !important;
+}
+
+.details-table {
+    border-collapse: collapse;
+}
+
+.details-table th,
+.details-table td {
+    border: 1px solid #ddd;
+}
+
+.details-table td {
+    padding: 10px;
+    font-family: Roboto, sans-serif;
+}
+
+.details-table tr:nth-child(even) {
+    background: #f2f2f2
+}
+
+.details-table tr:hover {
+    background-color: #ddd;
+}
+
+.paragraph1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.paragraph2 {
+    padding-left: 10%;
+    font-size: 26px;
+}
+
+.paragraph3 {
+    margin-top:20px;
+    padding-left: 2rem;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+.roboto-black {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 100;
+    line-height: 35px;
+}
+
+#roboto-red {
+    font-family: 'Roboto', sans-serif;
+    color: #a70e0f;
+    font-weight: 100;
+    line-height: 35px;
+}
+
+.white-text {
+    color: white;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.rounded-corners {
+    border-radius: 15px;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.fixed-width2000 {
+    max-width: 2000px;
+}
+
+.fixed-width1000 {
+    max-width: 1000px;
+}
+
+.flex-container div {
+    width: 100%;
+    text-align: left;
+}
+
+.flex-container b,
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+.margin-top-1rem {
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #FFDD00 !important;
+}
+
+.centered-table {
+    margin: 0 auto;
+}
+
+
+/* The end of the general styling */
+
+.nav-background {
+    background-image: url("../projectImages/party.png");
+    background-repeat: no-repeat;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 8rem;
+    background-position: left center;
+    background-size: cover;
+}
+
+.left-margin {
+    margin-left: 10rem;
+}
+
+.top-nav {
+    font-family: "Montserrat", sans-serif;
+    display: inline;
+    position: fixed;
+    color: white;
+    opacity: 61%;
+    background-color: #281923;
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+
+.top-nav a {
+    color: white !important;
+    text-align: center;
+    padding: 16px 18px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.top-nav a:hover {
+    margin-top: 0;
+    border-top: 10px #FFAA00 solid;
+}
+
+.top-nav a.active-a {
+    background-color: #A80E0E;
+    opacity: 61%;
+}
+
+.top-nav-container {
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+    height: 6rem;
+    width: 100%;
+    position: fixed;
+}
+
+.cart-quantity {
+    background-color: #FFDD00;
+    padding: 2px 2px;
+    color: #a70e0f;
+    font-weight: bold;
+}
+
+.margin-top-6rem {
+    margin-top: -6rem;
+}
+
+.food-links{
+    padding: 0 0;
+}
+
+.details {
+    margin-top: 6rem;
+}
+
+.description {
+    text-align: left;
+    color: #a70e0f;
+    font-size: 32px;
+    background-color: #fda901;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display:inline-block;
+}
+
+.description:hover{
+    text-decoration: none;
+    color: #a70e0f;
+}
+/* Top section text styling */
+
+h1.title {
+    margin-top: 6rem;
+    font-size: 70px;
+    color: white;
+}
+
+.quantity-button {
+    color: #a70e0f;
+    background-color: transparent;
+    width: 4rem;
+    border-radius: 10px;
+    border: 3px solid #FFAA00;
+    float: left;
+}
+
+.quantity-button:hover {
+    background-color: #FFDD00;
+    border-color: #FFAA00;
+}
+
+.close-btn {
+    font-size: 20px;
+    padding: 0 12px;
+    border-radius: 25px;
+    background-color: #A70E0F;
+}
+
+/* Yellow ribbon shape */
+
+.ribbon-shape {
+    margin-top: 5rem;
+    height: 11.6rem;
+    width: 49rem;
+    background-color: #FFAA00;
+    clip-path: polygon(0 0, 10% 50%, 0 100%, 100% 100%, 90% 50%, 100% 0);
+    color: white;
+}
+
+.ribbon-shape h3 {
+    font-size: 32px;
+    padding-left: 10%;
+    width: 70%;
+    padding-top: 5%;
+    font-weight: 400;
+}
+
+button.order-now {
+    color: #a70e0f;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+
+
+/* Menu section styling */
+
+.menu {
+    margin-top: 18.5rem;
+    text-align: center;
+}
+
+.menu nav a {
+    display: inline-block;
+    color: black;
+    margin-right: 8rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.menu-background {
+    background-color: #FFAA00;
+    background-clip: border-box;
+}
+
+
+/* Contains triangle and the text below it and inside it */
+
+.triangle-container {
+    height: 50%;
+}
+
+.triangle {
+    font-size: 20px;
+    height: 10rem;
+    text-align: left;
+    clip-path: polygon(0 0, 0% 100%, 75% 50%);
+    background-color: #A70E0F;
+}
+
+.triangle h2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    width: 40%;
+    padding-top: 3rem;
+    padding-left: 5%;
+}
+
+.triangle-container p {
+    padding-left: 10%;
+    font-size: 10px;
+}
+
+
+/* Gallery section styling */
+
+.gallery {
+    margin-top: 3rem;
+}
+
+.gallery a {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card-override {
+    padding: 0 5px;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.card img {
+    max-height: 25rem;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.contact {
+    background-color: #a70e0f;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.contact p {
+    margin-left: 1rem;
+}
+
+.contact nav {
+    margin-top: 3rem;
+}
+
+.contact a {
+    color: white;
+    margin-left: 2rem;
+}
+
+.full-image {
+    vertical-align: bottom;
+    width: 500px;
+    height: 500px;
+}
+
+.bottom-nav a {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.bottom-nav h3 {
+    color: #a70e0f;
+}
+
+#testimonials {
+    padding-top:100px;
+}
+
+#gallery {
+    padding-top:100px;
+}
+
+.insta-container img {
+    width: 146px;
+    height: 100px;
+    margin: 0.125rem;
+}
+
+.insta-container a {
+    width: 0;
+    height: 0;
+}
+
+.map-background {
+    background-image: url("../projectImages/map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+}
+
+.bottom-nav ul {
+    padding-left: 0;
+}
+
+.padding-right {
+    padding-right: 3rem;
+}
+
+.menu a:hover,
+.bottom-links a:hover {
+    color: #a70e0f;
+    font-weight: bolder;
+}
+
+.aligned10,
+.bottom-nav {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.image-size {
+    width: 425px;
+    height: 425px;
+}
+
+.reviewer-div {
+    margin-left: 2rem;
+    max-height: 425px;
+}
+
+.review-button {
+    height: 25px;
+    width: 145px;
+    font-size: 14px;
+    color: #A70E0F;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#reviewBox {
+    visibility: hidden;
+    margin-left: 50%;
+    transition: all 1s;
+    position: absolute;
+}
+
+.input-field {
+    margin-bottom: 20px;
+}
+
+.text-field {
+    background-color: #f2f2f2;
+    width: 50rem;
+    height: 35px;
+    border: 1px solid black;
+    font-size: 12px;
+    padding-left: 10px;
+    border-radius: 45px;
+    outline: none;
+}
+
+.large-text-field {
+    height: 10rem;
+    border-radius: 15px;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.text-field:focus {
+    background-color: white
+}
+
+.submit-button {
+    color: white;
+    font-size: 14px;
+    width: 80px;
+    height: 25px;
+}
